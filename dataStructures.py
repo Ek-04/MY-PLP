@@ -20,6 +20,7 @@ my_list.sort()
 print("Mylist after sorting:", my_list)
 my_list.sort(reverse= True)
 print("my list in descending order:", my_list)
+print("my list in descending order:", my_list)
 
 print("index value of 30 is:", my_list.index(30))
 
