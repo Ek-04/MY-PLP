@@ -10,6 +10,18 @@ print ("Adres is  $address");
 print ("Age is $age");
 print ("Marriage status is $isMarried ")
 
+import 'dart:io';
+
+void main() {
+  printName("John");
+}
+Stdout.Write ('Enter your name:');
+
+void printName(String name) {
+  print("welciome,  $name .");
+}
+
+
 
 
 
