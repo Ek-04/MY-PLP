@@ -1,0 +1,16 @@
+void main () {
+String name = 'John';
+String address = "Kenya";
+num age = 20;
+num height = 5.8;
+bool isMarried = false;
+
+print ("Name is $name");
+print ("Adres is  $address");
+print ("Age is $age");
+print ("Marriage status is $isMarried ")
+
+
+
+
+}
