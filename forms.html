@@ -42,3 +42,27 @@
         <button type = "Sumbit"> Submit </button>
 </html>
 </form>
+
+student_grades = []
+n = 3
+for i in range(n):
+    grade = input("Enter your grade:")
+    student_grades.append(grade)  # This line should be indented to be inside the loop
+
+print("Students' grades are:", student_grades)  # This line should also be indented to be outside the loop
+
+
+
+
+
+
+student_grades = []
+n = 3
+for i in range(n):
+      # This line should be indented to be inside the loop
+    while True:
+                    grade= int(input("Enteer your grade:".format(i+1)))
+                    break
+    student_grades.append(grade)
+print("Students' grades are:", student_grades)  # This line should also be indented to be outside the loop
+56
