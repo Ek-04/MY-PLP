@@ -31,7 +31,7 @@ integers_str = integers.split()
 #the ssmall sttrigs are converted into integers and stored in integers_str_int
 integers_str_int = [int(num_str) for num_str in integers_str]
 
-#the sum of integers is computed 
+# the sum of integers is computed 
 sum = sum(integers_str_int)
 
 #the sum is printed 
@@ -41,7 +41,7 @@ print (sum)
 
 
 
-personal_info_list = [] 
+personal_info_list = []
 while True:
     PERSONAL_INFO = {}
 name = input ("Enter your name:")
