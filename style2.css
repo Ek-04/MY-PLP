@@ -1,0 +1,22 @@
+#p1
+{
+    text-decoration: dotted;
+    border-style:double;
+    border: width 5px;;
+    border-color: rgb(66, 37, 37);
+    background-color: rgb(196, 173, 173) !important;
+    border-radius:10px;
+    padding:20px;
+}
+#p2
+{
+    color: blue;
+    font: 300;
+    text-align: center;
+    border-style: groove;
+    border-color: blueviolet;
+    border:width 10px;
+    border-radius: 10px;
+    background-color: rgb(233, 224, 224);
+    padding: 10px;
+}
