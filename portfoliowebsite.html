@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.pinimg.com/564x/36/32/77/363277e803a2054eee7fdb73969e02f7.jpg" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Front End Software Developer</p>
+            <h1>Hi, I'm <span>Wangari</span> Kariuki from Kenya</h1>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.pinimg.com/564x/73/3e/c8/733ec84f809a7497bfaf6f6637f422c4.jpg" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a front end software developer from Kenya. Currently taking a bachelor's degree in Computer Science at Multimedia University.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Designing web fronts</li>
+                            <li><span>JavaScript</span><br>Interactive website elements</li>
+                            <li><span>UI/UX Design</span><br>User-friendly interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2020-2021</span><br>Front End Developer Internship at XYZ Company</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018-2022</span><br>Bachelor's Degree in Computer Science, Multimedia University</li>
+                            <li><span>2014-2017</span><br>High School Diploma, ABC High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(var tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(var tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+</body>
+</html>
