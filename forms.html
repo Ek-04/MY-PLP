@@ -1,45 +1,74 @@
 <form>
 <!DOCTYPE html>
 <html>
-    <label for = "name"> Name:</label><br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="myform.css">
+    </head>
+    <body>
+    
+   <div class="name" id="name">
+        <label for = "name"> Name:</label><br>
         <input type ="text" id = "name" name = "name" placeholder = "Enter you name here"required>
-        <hr>
-
+       
+    </div> 
+    <div class="dob" id="dob">
         <label for = "date of birth"> Date of  birth: </label>
         <br>
         <input type = "text" id = "date of birth " date of birth = "date of birth" placeholder = "Enter your date of birth here"required>
         <br>
-        <hr>
-        
+    </div>  
+
+    <div class="address" id="address">
         <label for = "address"> Address : </label>
         <br>
         <input type ="text" id = "address" address = address placeholder = "Enter youtr address here"required>
         <br>
-        <hr>
+    </div>
 
+  
+    <div class="Tnumber" id="Tnumber">
         <label for = "Telephone number "> Telephone number: </label>
         <br>
         <input type = "text" id = "Telephone number" Telephone number = "Telephone number" placeholder  = "Enter your Telephone number here"required>
         <br>
-        <hr>
+    </div>
 
+
+    <div class="Email" id="email">
         <label for = " Email address"> Email address: </label>
         <br>
         <input type ="text" id = "Email address" Email address = "Email address" placeholder  = "Enter your Email address here"required>
         <br>
-        <hr>
+    </div>
 
+    <div class="course " id=course">
         <label for = "course "> Course : </label>
         <br>
         <input type ="text" id = "Course " Course  = Course  placeholder  = "Enter your acourse here"required>
-        <hr>
+    </div>
+
+    <div class = "select" id = "select">
         <label> Select:</label><br>
             <input type = "radio" id = "Register" name = "Select" value = "Register">
             <label for = "Register"> Register</label><br>
             <input type = "radio" id = "Cancel" name = "Select" value = "Cancel">
             <label for = "Cancel"> Cancel</label><br>
-
+        </div>
         <button type = "Sumbit"> Submit </button>
 </html>
+<script>
+   const button = document.querySelector('#submit-button');
+   function submit(event)
+    {
+        event.preventDefault();
+        alert("You have cancelled the form");
+        window.location.href = "https://www.google.com";
+    }
+   
+   button.addEventListener('click', submit);
+</script>
+</body>
 </form>
 

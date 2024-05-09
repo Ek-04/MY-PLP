@@ -1,0 +1,44 @@
+
+body {
+    color: brown;
+    font-size: medium;
+}
+.name{
+    padding:50px 10%;
+    margin: left 50%;
+    font-size: large;
+
+}
+.dob 
+{
+    padding:20px 10%;
+    margin:right 50%;
+    font-size: larger;
+    font-size: larger;
+}
+.address
+{
+padding: 10px 10%;
+    margin: 0 auto;
+}
+.course{
+    padding: 10px 10%;
+    margin: 0 auto;
+    font-size: larger;
+}
+.Tnumber {
+    padding: 10px 10%;
+    margin: 0 auto;
+    font-size: larger;
+}
+.email 
+{
+    padding: 50px 10%;
+    margin: left 10px;
+    font-size: larger;
+}
+.select {
+    padding: 10px 10%;
+    margin: left 10px;
+    font-size: larger;
+}
