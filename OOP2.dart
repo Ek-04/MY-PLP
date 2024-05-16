@@ -1,5 +1,5 @@
- //declaration of class individual whic is the parent class 
- class Individual {
+//declaration of class individual whic is the parent class
+class Individual {
   String name;
   int age;
 
@@ -14,8 +14,10 @@
     print("This level!");
   }
 }
+
 //child class student inherits properties of the class Individual
-class Student extends Individual {//INHERITANCE 
+class Student extends Individual {
+  //INHERITANCE
   double gradeLevel;
 
   Student(String name, int age, this.gradeLevel) : super(name, age);
@@ -26,7 +28,8 @@ class Student extends Individual {//INHERITANCE
   }
 }
 
-class Teacher extends Individual {//INHERITANCE 
+class Teacher extends Individual {
+  //INHERITANCE
   // Child property
   String subject;
 
@@ -38,7 +41,8 @@ class Teacher extends Individual {//INHERITANCE
     print("Subject taught is: $subject");
   }
 }
-//in the main function the methods form bothtthe parent class and the child classes are called 
+
+//in the main function the methods form bothtthe parent class and the child classes are called
 void main() {
   Student s1 = Student("Harry", 18, 1.2);
   s1.displayIndividualInfo();

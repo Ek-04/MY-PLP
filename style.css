@@ -1,84 +1,36 @@
 body{
     
-    background-image:url('https://i.pinimg.com/564x/c5/04/89/c504890cf6dab9832d8672c3bd062f02.jpg');
+    background-color: azure;
     background-image: -moz-linear-gradient('https://i.pinimg.com/564x/c5/04/89/c504890cf6dab9832d8672c3bd062f02.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.task-form button {
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: rgb(46, 46, 56);
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+}
+.task-form button:hover {
+    background-color: blueviolet;
+}
+.task-item span {
+    margin-right:10px;
     
 }
-header{
-    border-style:hidden;
-    border-width: 1px;
-    background-color:rgb(204, 165, 175);
-    padding: 20px;
-     margin-left:11px ;
-     margin-right: 10px;
-     align-items: right;
-     text-align: center;
-     font-family: 'bradley Hand Gothic';
-     font-size: larger;
-} 
-h2
-{
-    color:rgb(43, 4, 31);
-    font-size: x-large;
-    font-family: Arial;
+.task-item button {
+    background-color: brown;
+    color: aliceblue;
+    border:none;
+    border-radius: 70% ;
+    cursor: pointer;
+    margin-left: 10px;
 }
-p{
-    margin-top: 10px;
-    margin-left:10px;
-   border-radius:10px;
-    background-color: rgb(229, 233, 231);
-    padding: 5px;
-    color: black;
-    font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-#l1{
-    background-color: rgb(229, 233, 231);
-    border-radius: 20px;
-    border-style: inset;
-    border-left: 10px;
-    border: right 10px;
-    margin-right: 200px;
-    margin-left:20px;
-    margin-bottom:10px ;
-    color:#000000;
-    font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-#l2{
-    background-color:rgb(229, 233, 231);
-    border-radius: 20px;
-    border-style: inset;
-    border-left: 10px;
-    border: right 10px;
-    margin-right: 200px;
-    margin-left:20px;
-    margin-bottom:10px ;
-    color:#000000;
-    font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-#l3{
-    background-color: rgb(229, 233, 231);
-    border-radius: 20px;
-    border-style: inset;
-    border-left: 10px;
-    border: right 10px;
-    margin-right: 200px;
-    margin-left:20px;
-    color:#000000;
-    font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-h3
-{
-    color:rgb(43, 4, 31);
-    font-size:x-large;
-    font-family: Arial;
-}
-h4
-{
-    color:rgb(43, 4, 31);
-    font-size:x-large;
-    font-family: Arial;
+.task-item button:hover {
+    background-color: blue;
 }
