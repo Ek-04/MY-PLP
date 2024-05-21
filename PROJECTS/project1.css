@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url ("C:\Users\user\Downloads\Premium Photo _ Interesting offer curious young man looking aside at big blank smartphone screen.jpeg");
+}
+header {
+    padding: 50px;
+    background-color: rgb(143, 114, 114);
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+nav {
+background-color: bisque;
+display: flex;
+align-items: center;
+padding: 1rem;
+margin-left: 75rem;
+
+}
+nav ul {
+    list-style: none;
+    margin: 20;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li {
+    margin: 0 20px;
+
+
+}
+.about {
+    color: rgb(26, 2, 2);
+    font-size: larger;
+    padding: 20px;
+    
+}
+.image {
+    width: 500%;
+    height: 500%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.name-input {
+    margin-top: 40px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.-input {
+    margin-top: 40px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
