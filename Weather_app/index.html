@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset = "UTF= 8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <link rel = "stylesheet" href ="index.css">
+    </head>
+    <body>
+        <section class = "container">
+        <div>
+            <h1> Weather App</h1>
+        </div>
+        <div class  = "form ">
+            <input type = "text" id = "user-input" placeholder = "Enter city">
+            <button onclick = addCity()>Check City</button>
+
+        </div>
+    </section>
+         <!--importing necessary firebase and fire stire  SDKs and custom javascript codes that interact 
+        with the firestiore to manage tasks -->
+    <ul id ="task-list">
+
+        <!-- Add this before your tasks.js script -->
+ <!-- Import Firebase SDK -->
+ <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+ <script src="index.js"></script>
+    </body>
+</html>

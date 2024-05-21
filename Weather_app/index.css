@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center
+    background-color: ;
+}
+.container {
+    background-color: bisque;
+    color: black;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-left: 20rem;
+    margin-top: 20rem;
+    width: 20rem;
+}
+.container h1 {
+    font-size: x-large;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
