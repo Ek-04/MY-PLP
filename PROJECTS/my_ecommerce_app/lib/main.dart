@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // List of categories with names and image URLs
   List<Map<String, String>> categories = 
   [
-    {'name': 'Vegetables ','image':'https://i.pinimg.com/564x/58/77/a6/5877a6ca42040c6dfe955d10d1d33ee2.jpg'},
+    {'name': 'Vegetables ','image': 'Vegetables.jpg'},
     {'name': 'Cereals', 'image':'https://i.pinimg.com/564x/a9/e7/d4/a9e7d42642f347831ffa4122a4d17168.jpg'},
     {'name': 'Fruits', 'image':'https://i.pinimg.com/564x/a7/d8/aa/a7d8aa586297720cd20257a58cb54db6.jpg'},
     {'name': 'Spices', 'image':'https://i.pinimg.com/564x/a5/e2/ed/a5e2edb257d8fcf0f86d4e99527975d7.jpg'},
